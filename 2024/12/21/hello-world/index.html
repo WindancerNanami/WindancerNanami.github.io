@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Hello World | Windancer的小窝</title>
-    <meta name="author" content="John Doe" />
+    <meta name="author" content="WindancerDesu" />
     <meta name="description" content="自强不息，厚德载物" />
     <meta name="keywords" content="" />
     <meta
@@ -43,6 +43,8 @@
 
 
 
+
+<script src="https://s4.zstatic.net/ajax/libs/twikoo/1.6.31/twikoo.all.min.js"></script>
 
 
 
@@ -191,6 +193,10 @@
     
     
     
+    <div id="comment">
+        <div id="twikoo-container"></div>
+    </div>
+    
     
 </div>
 
@@ -202,7 +208,7 @@
             <span id="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
-            &commat;John Doe
+            &commat;WindancerDesu
         </div>
         <div>
             Based on the <a target="_blank" rel="noopener" href="https://hexo.io">Hexo Engine</a> &amp;
@@ -226,6 +232,16 @@
     
 
 
+
+<script>
+    twikoo.init({
+        el: "#twikoo-container",
+        envId: "",
+        region: "",
+        path: location.pathname,
+        lang: "",
+    })
+</script>
 
 
     
